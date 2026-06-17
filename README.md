@@ -6,8 +6,6 @@ Python implementation of the Apparent Thermal Inertia of Snow (APs).
 The Apparent Thermal Inertia of Snow (APs) has been used to monitor snowmelt dynamics and identify the onset of snowmelt phases from meteorological observations.
 APs is derived from surface albedo, surface temperature, incoming shortwave radiation and seasonal variations in solar illumination.
 
-This implementation computes daily APs values from meteorological station data and site latitude.
-
 
 ## Installation
 
