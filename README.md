@@ -63,7 +63,7 @@ The APs algorithm requires a meteorological dataset containing:
 | Column | Description | Units |
 |----------|----------|----------|
 | datehour | Date and time of the observation | datetime |
-| Albedo | Surface albedo | - |
+| albedo | Surface albedo | - |
 | tsur_spl | Surface snow temperature | °C |
 | swin | Incoming shortwave radiation | W m⁻² |
 
