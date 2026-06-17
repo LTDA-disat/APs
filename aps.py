@@ -101,7 +101,7 @@ def compute_aps(df, latitude):
 
         
         alb = safe_nanmean(
-            dataday.loc[mask_t2, "Albedo"])
+            dataday.loc[mask_t2, "albedo"])
 
         tsur5 = safe_nanmean(
             dataday.loc[mask_t1, "tsur_spl"])
