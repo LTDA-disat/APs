@@ -40,6 +40,7 @@ APs/
 ├── solar.py
 ├── example.py
 ├── README.md
+├── requirements.txt
 │
 ├── input/
 │   └── example_meteo.csv
