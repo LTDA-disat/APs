@@ -35,25 +35,16 @@ pip install -r requirements.txt
 APs/
 │
 ├── aps.py
-├── solar.py
 ├── example.py
 ├── README.md
 ├── requirements.txt
-│
-├── input/
-│   └── example_meteo.csv
-│
-└── output/
-    └── APs_output.xlsx
 ```
 
 ### Files
 
-- `aps.py` contains the APs computation routine.
-- `solar.py` contains the calculation of solar declination and the seasonal solar illumination term.
+- `aps.py` contains the APs computation routine, including the solar declination.
 - `example.py` provides a complete working example.
-- `example_meteo.csv` is an example meteorological dataset.
-- `APs_output.xlsx` is an example output file.
+- `requirements.txt` lists the required Python dependencies.
 
 
 ## Required input data
@@ -69,6 +60,7 @@ The APs algorithm requires a meteorological dataset containing:
 
 The input file can be provided as a CSV file.
 
+The input file can be provided as a CSV file and column names can be customized through the function arguments.
 Example:
 
 | datehour | Albedo | tsur_spl | swin |
