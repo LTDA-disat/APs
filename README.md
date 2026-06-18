@@ -102,11 +102,11 @@ The function returns a `pandas.DataFrame` with the following fields:
 
 If you use this software in scientific work, please cite:
 
-Gatti, O., Di Mauro, B., Marin, C., Garzonio, R., Bianchi, G., Pogliotti, P., Notarnicola, C., Pettinato, S., Cremonese, E., & Colombo, R.
+Gatti, O., Di Mauro, B., Marin, C., Garzonio, R., Bramati, G., Premier, V., Notarnicola, C., Pettinato, S., Cremonese, E., Pogliotti, P. & Colombo, R.
 
-*Combined use of radar remote sensing, apparent thermal inertia and snowpack modelling to characterize snowmelt phases in Alpine environments.*
+*Snow melting phases detection using apparent thermal inertia,radar data and numerical modelling.* 
 
-Frontiers in Remote Sensing.
+Frontiers in Earth Science.
 
 Additionally, please cite the original APs formulation:
 
