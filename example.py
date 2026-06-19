@@ -3,6 +3,18 @@
 Created on Wed Jun 17 10:51:10 2026
 
 @author: claudia.ravasio
+
+Example script for computing the Apparent Thermal Inertia of Snow (APs)
+from meteorological observations.
+
+The script:
+1. Loads an input meteorological dataset.
+2. Computes daily APs values.
+3. Saves the results to an Excel file.
+
+Users can modify the averaging-window parameters (t1, t2,
+tmax, and half_window), the site latitude, and the input
+column names according to their dataset.
 """
 
 import pandas as pd
